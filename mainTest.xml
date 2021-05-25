@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="test">
+        <parameter name="email" value="ingrida.test@ukr.net"/>
+        <parameter name="password" value="qT2Kv;cFv..pcLj"/>
+        <parameter name="to" value="ingrida.s.test@gmail.com"/>
+        <parameter name="title" value="TestTitle"/>
+        <parameter name="contentLetter" value="Here is an example message"/>
+        <classes>
+            <class name="SmokeTest"/>
+        </classes>
+    </test>
+</suite>
