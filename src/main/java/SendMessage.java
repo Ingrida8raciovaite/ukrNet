@@ -14,9 +14,7 @@ public class SendMessage {
 
      public void fillData(String email, String someTitle){
          forWhom.sendKeys(email);
-         System.out.println("Filled email");
          title.sendKeys(someTitle);
-         System.out.println("Filled title");
      }
 
      public void send(){
